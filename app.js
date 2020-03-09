@@ -46,25 +46,14 @@ app.put('/lights/:id', function (req, res) {
 	if(light) {
 		light = {...light, ...req.body};
 		lights.objects = lights.objects.map(l => l.id == light.id ? {...l, ...light} : l );
-		setLight(light)
+		console.log("emitting data: " + light.color);
+		io.local.emit('drop', light);
 		res.status(202).send(light);
 	} else {
 		res.status(404).send("Not found.");
 	}
 });
 
-function setLight(light) {
-	console.log("emitting data: " + light.color);
-	// socket.broadcast.emit('drop', light);
-	io.local.emit('drop', light);
-}
-
 http.listen(PORT, function() {
 	console.log('Server running on port ' + PORT);
 });
-//
-// io.on('connection', function (socket) {
-// 	socket.on('drop', function (data) {
-// 		socket.broadcast.emit('drop', data);
-// 	});
-// });

@@ -5,7 +5,7 @@ var winky_blinky;
 function drawLight(context, x, y, color) {
 	const gradient = context.createRadialGradient(x+8, y+8, 2, x+8, y+8, 8);
 	gradient.addColorStop(0, color);
-	gradient.addColorStop(1, "rgba(255,255,255,0.1)");
+	gradient.addColorStop(1, "rgba(0,0,0,0)");
 	context.fillStyle = gradient;
 	context.fillRect(x, y, 16, 16);
 }
