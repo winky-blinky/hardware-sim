@@ -47,7 +47,7 @@ app.put('/lights/:id', function (req, res) {
 		light = {...light, ...req.body};
 		lights.objects = lights.objects.map(l => l.id == light.id ? {...l, ...light} : l );
 		setLight(light)
-		res.status(202).send(lights);
+		res.status(202).send(light);
 	} else {
 		res.status(404).send("Not found.");
 	}
