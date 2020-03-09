@@ -1,0 +1,1 @@
+curl -X PUT -d @put_light.json localhost:5000/lights/a67eafa4-5242-4ae5-903e-a3912653fe52

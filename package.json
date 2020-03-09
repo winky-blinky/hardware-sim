@@ -1,0 +1,26 @@
+{
+  "name": "wblights",
+  "version": "1.0.0",
+  "description": "Hardware driver + simulator for Winnky Blinky light board.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winky-blinky/wblights.git"
+  },
+  "author": "Will Hough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winky-blinky/wblights/issues"
+  },
+  "homepage": "https://github.com/winky-blinky/wblights#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "util": "^0.12.2",
+    "uuid": "^7.0.2"
+  }
+}
