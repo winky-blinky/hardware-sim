@@ -3,3 +3,4 @@ curl -X PUT -d @put_light.json -H 'Content-Type':'application/json' localhost:50
 https://socket.io/docs/emit-cheatsheet/
 https://thingm.com/products/blinkm/
 https://www.cnet.com/how-to/the-complete-guide-to-philips-hue/
+https://arduino-esp8266.readthedocs.io/en/latest/filesystem.html

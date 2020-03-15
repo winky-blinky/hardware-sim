@@ -39,12 +39,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	paintBackground(context, width, height);
 
-	request.open("GET", "http://localhost:5000/winky_blinky");
+	request.open("GET", "http://localhost:5000/winky_blinkies/8c723198-19ef-46fb-93ca-71114cfd151f");
 	request.send();
 	request.onload = () => {
 		if(request.status === 200) {
 			winky_blinky = JSON.parse(request.response);
 			drawBoard(context, winky_blinky);
+		} else {
+			console.log(request.status);
 		}
 	}
 	var socket = io.connect();

@@ -1,4 +1,6 @@
 {
-  "color": "blue",
-  "on": "false"
+  id: 'c50b169c-6363-426f-bcd4-0d6e73234814',
+  x: 40,
+  y: 30,
+  color: '#cafc03'
 }
