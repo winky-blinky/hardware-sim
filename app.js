@@ -19,13 +19,7 @@ io.on('connection', function (s) {
 	socket = s;
 });
 
-const board = require('./board.json');
-var lights = { objects: [] };
-board.forEach(row => {
-	row.forEach(led => {
-		lights.objects.push(led);
-	})
-})
+const lights = require('./lights.json');
 
 const winky_blinky = require('./winky_blinky.json');
 app.get('/winky_blinkies/:id', function (req, res) {

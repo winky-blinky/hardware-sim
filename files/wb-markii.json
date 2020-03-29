@@ -1,0 +1,329 @@
+{
+  "metaData": {
+    "id": "f5104b2",
+    "installationName": "Square Pixels",
+    "backgroundColor": "darkGreen"
+  },
+  "board": [
+    {
+      "lightId": "bdba137",
+      "x": 5,
+      "y": 5
+    },
+    {
+      "lightId": "e141dfe",
+      "x": 15,
+      "y": 5
+    },
+    {
+      "lightId": "600d90f",
+      "x": 25,
+      "y": 5
+    },
+    {
+      "lightId": "9a3db1b",
+      "x": 35,
+      "y": 5
+    },
+    {
+      "lightId": "a6982d9",
+      "x": 45,
+      "y": 5
+    },
+    {
+      "lightId": "f195ef9",
+      "x": 55,
+      "y": 5
+    },
+    {
+      "lightId": "f4943d2",
+      "x": 65,
+      "y": 5
+    },
+    {
+      "lightId": "0d8c518",
+      "x": 75,
+      "y": 5
+    },
+    {
+      "lightId": "d868cfc",
+      "x": 5,
+      "y": 15
+    },
+    {
+      "lightId": "fe79fa1",
+      "x": 15,
+      "y": 15
+    },
+    {
+      "lightId": "549f2ad",
+      "x": 25,
+      "y": 15
+    },
+    {
+      "lightId": "4263932",
+      "x": 35,
+      "y": 15
+    },
+    {
+      "lightId": "9d5e99f",
+      "x": 45,
+      "y": 15
+    },
+    {
+      "lightId": "af8f124",
+      "x": 55,
+      "y": 15
+    },
+    {
+      "lightId": "a44addd",
+      "x": 65,
+      "y": 15
+    },
+    {
+      "lightId": "865c9b4",
+      "x": 75,
+      "y": 15
+    },
+    {
+      "lightId": "e75ded0",
+      "x": 5,
+      "y": 25
+    },
+    {
+      "lightId": "d94da35",
+      "x": 15,
+      "y": 25
+    },
+    {
+      "lightId": "42579fa",
+      "x": 25,
+      "y": 25
+    },
+    {
+      "lightId": "3b7052b",
+      "x": 35,
+      "y": 25
+    },
+    {
+      "lightId": "24aaf0f",
+      "x": 45,
+      "y": 25
+    },
+    {
+      "lightId": "ee7db97",
+      "x": 55,
+      "y": 25
+    },
+    {
+      "lightId": "213eed1",
+      "x": 65,
+      "y": 25
+    },
+    {
+      "lightId": "36c44fc",
+      "x": 75,
+      "y": 25
+    },
+    {
+      "lightId": "eb4cdb1",
+      "x": 5,
+      "y": 35
+    },
+    {
+      "lightId": "1cabeba",
+      "x": 15,
+      "y": 35
+    },
+    {
+      "lightId": "b622fc6",
+      "x": 25,
+      "y": 35
+    },
+    {
+      "lightId": "c929963",
+      "x": 35,
+      "y": 35
+    },
+    {
+      "lightId": "0d12049",
+      "x": 45,
+      "y": 35
+    },
+    {
+      "lightId": "9c372bc",
+      "x": 55,
+      "y": 35
+    },
+    {
+      "lightId": "bf2ab40",
+      "x": 65,
+      "y": 35
+    },
+    {
+      "lightId": "9cdf5f9",
+      "x": 75,
+      "y": 35
+    },
+    {
+      "lightId": "1684e8f",
+      "x": 5,
+      "y": 45
+    },
+    {
+      "lightId": "7249ead",
+      "x": 15,
+      "y": 45
+    },
+    {
+      "lightId": "83ca805",
+      "x": 25,
+      "y": 45
+    },
+    {
+      "lightId": "fa37e8d",
+      "x": 35,
+      "y": 45
+    },
+    {
+      "lightId": "c29ae7c",
+      "x": 45,
+      "y": 45
+    },
+    {
+      "lightId": "c3c95b2",
+      "x": 55,
+      "y": 45
+    },
+    {
+      "lightId": "a346683",
+      "x": 65,
+      "y": 45
+    },
+    {
+      "lightId": "dafe667",
+      "x": 75,
+      "y": 45
+    },
+    {
+      "lightId": "7dd0c3f",
+      "x": 5,
+      "y": 55
+    },
+    {
+      "lightId": "cc10f10",
+      "x": 15,
+      "y": 55
+    },
+    {
+      "lightId": "2589a6d",
+      "x": 25,
+      "y": 55
+    },
+    {
+      "lightId": "36bf2ca",
+      "x": 35,
+      "y": 55
+    },
+    {
+      "lightId": "a3b61b5",
+      "x": 45,
+      "y": 55
+    },
+    {
+      "lightId": "17b1964",
+      "x": 55,
+      "y": 55
+    },
+    {
+      "lightId": "8f073af",
+      "x": 65,
+      "y": 55
+    },
+    {
+      "lightId": "9f603cc",
+      "x": 75,
+      "y": 55
+    },
+    {
+      "lightId": "fdbf918",
+      "x": 5,
+      "y": 65
+    },
+    {
+      "lightId": "2f55cfe",
+      "x": 15,
+      "y": 65
+    },
+    {
+      "lightId": "c3c10be",
+      "x": 25,
+      "y": 65
+    },
+    {
+      "lightId": "8c3da91",
+      "x": 35,
+      "y": 65
+    },
+    {
+      "lightId": "7650d18",
+      "x": 45,
+      "y": 65
+    },
+    {
+      "lightId": "3b2b1a0",
+      "x": 55,
+      "y": 65
+    },
+    {
+      "lightId": "9fd35dd",
+      "x": 65,
+      "y": 65
+    },
+    {
+      "lightId": "6a2dbfa",
+      "x": 75,
+      "y": 65
+    },
+    {
+      "lightId": "a740368",
+      "x": 5,
+      "y": 75
+    },
+    {
+      "lightId": "e8f4bd3",
+      "x": 15,
+      "y": 75
+    },
+    {
+      "lightId": "e58da80",
+      "x": 25,
+      "y": 75
+    },
+    {
+      "lightId": "7535906",
+      "x": 35,
+      "y": 75
+    },
+    {
+      "lightId": "edda11b",
+      "x": 45,
+      "y": 75
+    },
+    {
+      "lightId": "9f99dfb",
+      "x": 55,
+      "y": 75
+    },
+    {
+      "lightId": "4776481",
+      "x": 65,
+      "y": 75
+    },
+    {
+      "lightId": "679f5ac",
+      "x": 75,
+      "y": 75
+    }
+  ]
+}

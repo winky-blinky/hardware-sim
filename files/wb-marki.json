@@ -1,0 +1,14 @@
+{
+  "metaData": {
+    "id": "badbad1",
+    "installationName": "Prototype Blinkm Max",
+    "backgroundColor": "white"
+  },
+  "board": [
+    {
+      "lightId": "f32bda2",
+      "x": 5,
+      "y": 5
+    }
+  ]
+}

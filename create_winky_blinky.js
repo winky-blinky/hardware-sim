@@ -1,21 +1,25 @@
-const lights = require('./lights.json');
+const lights = require('./files/lights.json');
+const uuid = require('uuid')
+
+var id = uuid.v4();
+id = id.substr(1, 7)
 
 const board = [];
-lights.forEach((row, i) => {
-		row.forEach((light, j) => {
-		var led = {
-			id: light.id,
-			x: (i%2 == 1 ? 0 : 5) + j * 10,
-			y: i * 10
-		};
-		board.push(led);
-	})
+lights.lights.forEach((light, i) => {
+	var led = {
+		lightId: light.id,
+		x: i%8 * 10 + 5,
+		y: Math.floor(i/8) * 10 + 5
+	};
+	board.push(led);
 })
 
 const winky_blinky = {
-	id: '8c723198-19ef-46fb-93ca-71114cfd151f',
-	installationName: 'Will\'s Mac',
-	backgroundColor: 'white',
-	board: board
+	metaData: {
+		id,
+		installationName: process.argv[2] ? process.argv[2] : "",
+		backgroundColor: 'darkGreen'
+	},
+		board: board
 }
 console.log(JSON.stringify(winky_blinky, undefined, 2));
